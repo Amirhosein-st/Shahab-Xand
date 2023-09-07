@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+:root {
+    --color-xsite-1: #B26D1E;
+    --color-xsite-2: #B26D1E;
+    --color-xsite-3: #707070;
+    --color-xsite-4: #00AEEF;
+    --color-xsite-5: #F3B976;
+    --color-xsite-6: #F6F2EA;
+}
+
+/*  */
+
+.Softwares-container {
+    padding: 24px 56px;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.Softwares-container>ul {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+}
+
+.Softwares-container>ul>li {
+    display: flex;
+    gap: 8px;
+}
+.Softwares-container>ul>li>img {
+    width: 30px;
+    height: 30px;
+}
+.Softwares-container>ul>li>p {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Softwares-container-ul-1 {
+    gap: 24px;
+}
+.Softwares-container-ul-2 {
+    gap: 36.5px;
+}
+.Softwares-container-ul-3 {
+    gap: 36.5px;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+    cursor: default;
+}
+
+:root {
+    --color-xsite-1: #B26D1E;
+    --color-xsite-2: #B26D1E;
+    --color-xsite-3: #707070;
+    --color-xsite-4: #00AEEF;
+    --color-xsite-5: #F3B976;
+    --color-xsite-6: #F6F2EA;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*  */
+
+.back-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f2ea;
+}
+
+.main-container {
+    max-width: 1500px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+main {
+    width: 80%;
+    overflow-y: scroll;
+}

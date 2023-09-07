@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+:root {
+    --color-xsite-1: #B26D1E;
+    --color-xsite-2: #B26D1E;
+    --color-xsite-3: #707070;
+    --color-xsite-4: #00AEEF;
+    --color-xsite-5: #F3B976;
+    --color-xsite-6: #F6F2EA;
+}
+
+/* Projects-container */
+
+.Projects-container {
+    width: 100%;
+    padding: 20px 56px;
+    display: none;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.Projects-container>h1 {
+    color: #525252;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Projects */
+
+.Project-1 ,
+.Project-2 ,
+.Project-3 ,
+.Project-4 ,
+.Project-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Project-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.Project-header>h1 {
+    color: #525252;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.Project-header>h2 {
+    color: #525252;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Project-h3 {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Project-ul-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Project-ul-tasks>h1 {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Project-ul-tasks>li {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: disc;
+    margin-left: 30px;
+}
+
+.Project-ul-tasks>li>a {
+    color: #00AEEF;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.Project-buttons {
+    display: flex;
+    gap: 12px;
+}
+.Project-buttons>button {
+    background-color: transparent;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid #B26D1E;
+
+    color: #B26D1E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Project-buttons>button:hover {
+    background-color: #B26D1E;
+    color: white;
+}
+
+.Project-buttons>button>i {
+    color: #B26D1E;
+}
+
+.Project-buttons>button:hover i{
+    color: white;
+}
